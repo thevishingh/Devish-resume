@@ -22,7 +22,7 @@ export default function Header() {
           <ThemeToggle />
 
           <Link
-            href="/resume/Vishal_Singh_React_Developer_Resume.pdf"
+            href="/resume.pdf"
             className="flex items-center gap-2 rounded-full border border-black/10 bg-white/50 px-3.5 py-2 text-sm font-medium text-zinc-900 transition-all hover:border-black/20 hover:bg-white/70 dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:border-white/25 dark:hover:bg-white/10"
           >
             <Download className="h-4 w-4" />
