@@ -1,24 +1,24 @@
 export const personalInfo = {
   name: "Vishal Singh",
-  role: "Frontend / Full Stack Developer",
+  role: "React Frontend Developer",
 
-  tagline: "React developer building scalable web applications.",
+  tagline: "Designing scalable frontend systems with React",
 
-summaryTop:
-  "2+ years building React applications with strong experience in UI architecture.",
+  summaryTop:
+    "2+ years of experience building scalable React applications with strong focus on UI architecture and performance.",
 
-summaryMiddle:
-  "Focused on authentication systems, API integration, and performance optimization.",
+  summaryMiddle:
+    "Specialized in authentication systems, API integration, and building reusable component-driven interfaces.",
 
-summaryBottom:
-  "Comfortable collaborating across teams to build clean, scalable, and maintainable frontend solutions.",
+  summaryBottom:
+    "Experienced in delivering clean, maintainable, and scalable frontend solutions while collaborating across teams.",
 
   email: "thevishingh@gmail.com",
   phone: "+91-9175506236",
   linkedin: "https://www.linkedin.com/in/thevishingh/",
   github: "https://github.com/thevishingh",
   location: "Maharashtra, India",
-  updatedAt: "April 2026",
+  updatedAt: "4 May 2026",
 };
 
 export const experiences = [
@@ -27,13 +27,13 @@ export const experiences = [
     company: "Mentation Solutions Pvt. Ltd.",
     duration: "Mar 2024 – Present",
     points: [
-      "Developed 10+ responsive UI modules and web pages using React.js.",
-      "Designed and built reusable component architecture, improving development efficiency across modules.",
+      "Developed 10+ scalable and reusable UI modules, improving consistency and reducing development effort across features",
+      "Designed and implemented reusable component architecture, improving development efficiency across modules.",
       "Implemented secure authentication and role-based access control for multiple user types.",
-      "Integrated and managed REST APIs using Axios for smooth data flow between frontend and backend.",
+      "Integrated and managed REST APIs for efficient and reliable data flow between frontend and backend.",
       "Handled state management using Context API and Redux Toolkit for better application scalability.",
       "Built and optimized dynamic forms with validation using React Hook Form.",
-      "Improved UI performance and overall user experience.",
+      "Optimized UI performance, resulting in faster load times and improved user experience",
       "Mentored 6 interns in frontend development, UI thinking, problem-solving, and client communication.",
     ],
   },
@@ -65,14 +65,15 @@ export const featuredProjects = [
       "MongoDB",
     ],
     description:
-      "Contributed to the frontend development of a restaurant management system used for managing operations and user interactions.",
+      "Contributed to a production-level restaurant management system with role-based dashboards, real-time data handling, and scalable UI architecture.",
     points: [
-      "Designed and developed responsive dashboards, UI components, and informational pages.",
+      "Designed and developed responsive dashboards and UI components for multiple user roles, improving usability and workflow efficiency.",
       "Implemented authentication flow and role-based access system for different user roles.",
       "Integrated REST APIs for real-time data handling, including fetching and submitting user data.",
       "Managed application state using Context API and Redux Toolkit.",
       "Contributed to UI consistency and performance optimization using DaisyUI.",
     ],
+    note: "Company project · Source code not publicly available",
   },
   {
     title: "Personal Portfolio",
@@ -90,7 +91,7 @@ export const featuredProjects = [
       "Mockups",
     ],
     description:
-      "Modern, interactive personal portfolio showcasing advanced frontend skills with 3D animations and immersive user experience.",
+      "Interactive portfolio demonstrating advanced frontend engineering, animations, 3D visuals, and performance-focused UI development.",
     points: [
       "Built interactive 3D experiences using React Fiber and Three.js for engaging visual effects.",
       "Created smooth animations and micro-interactions with Framer Motion.",
@@ -99,6 +100,8 @@ export const featuredProjects = [
       "Added contact form functionality with Email.js for direct client communication.",
       "Developed responsive mockups and hero sections with advanced hover effects.",
     ],
+    github: "https://github.com/thevishingh/Devish-portfolio",
+    live: "https://thevishingh.vercel.app/",
   },
 ];
 export const education = {
@@ -128,6 +131,7 @@ export const skillCategories = [
     items: [
       "React.js",
       "JavaScript (ES6+)",
+      "TypeScript (Basic)",
       "Redux Toolkit",
       "Context API",
       "Hooks",
